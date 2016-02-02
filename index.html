@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" />
+  </head>
+
+  <style>
+    h1 {
+      font-family: 'Open Sans';
+    }
+
+    #modal {
+      font-size: 1.1em;
+      font-family: 'Open Sans';
+    }
+  </style>
+
+  <body>
+
+    <h1>Click here and expect to see text below</h1>
+
+    <div style="display: none;" id="modal">
+      <h2>Hey there, can you see me?</h2>
+    </div>
+
+    <script>
+      document.querySelector("h1").onclick = function() {
+        document.querySelector("#modal").style.display = "block";
+      }
+    </script>
+
+    <iframe src="https://kwals.github.io"></iframe>
+
+    <h3> Steps to reproduce the bug</h3>
+    <ol>
+      <li>Empty the cache and reload the page.</li>
+      <li><strong>Before</strong>clicking on anything, reload the page normally.</li>
+      <li>Click the text.</li>
+      <p>Note: If you look at the "Networks" tab in the dev tools, you will notice that another request is made for the webfont when you click the text. It returns a 304, and is the same request that has already been made.</p>
+    </ol>
+
+  </body>
+</html>
