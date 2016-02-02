@@ -28,12 +28,12 @@
       }
     </script>
 
-    <iframe src="https://kwals.github.io"></iframe>
+    <iframe src="/inframe.html"></iframe>
 
     <h3> Steps to reproduce the bug</h3>
     <ol>
       <li>Empty the cache and reload the page.</li>
-      <li><strong>Before</strong>clicking on anything, reload the page normally.</li>
+      <li><strong>Before</strong> clicking on anything, reload the page normally.</li>
       <li>Click the text.</li>
       <p>Note: If you look at the "Networks" tab in the dev tools, you will notice that another request is made for the webfont when you click the text. It returns a 304, and is the same request that has already been made.</p>
     </ol>
