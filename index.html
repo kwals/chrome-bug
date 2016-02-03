@@ -27,7 +27,18 @@
       }
     </script>
 
-    <iframe src="https://kwals.github.io/chrome-bug-iframe"></iframe>
+    <iframe
+    srcdoc="data:text/html <html>
+      <head>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+      </head>
+      <body>
+        Hello, World!
+        This iframe also is requesting the font Open Sans from Google fonts.
+      </body>
+    </html>
+    "></iframe>
+
 
     <h3> Steps to reproduce the bug</h3>
     <ol>
