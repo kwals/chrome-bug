@@ -20,6 +20,8 @@ See example of bug behavior below;
 
 
 
+___________________________________________
+
 
 ***Bug info for Chromium Team***
 
@@ -38,8 +40,10 @@ _Add OK or FAIL, along with the version, after other browsers where you have tes
     
     Safari: OK
     
+    
+    
 
-_What steps will reproduce the problem?_
+***_What steps will reproduce the problem?_***
 
 
 1.Navigate to a page with an iframe. 
