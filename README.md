@@ -60,7 +60,7 @@ _Add OK or FAIL, along with the version, after other browsers where you have tes
 3. Click button to show hidden content.
 
 
-See example at kwals.github.io/chrome-bug
+See example at [kwals.github.io/chrome-bug](kwals.github.io/chrome-bug)
 
 
 _What is the expected result?_
@@ -69,3 +69,4 @@ Hidden text should become visible.
 
 _What happens instead?_
 Hidden text is not visible.
+
