@@ -40,11 +40,11 @@ _Other browsers tested_: Chrome 47, Safari
 
 _Add OK or FAIL, along with the version, after other browsers where you have tested this issue_:
 
-    Chrome 47: OK
-    
-    Firefox: OK
-    
-    Safari: OK
+Chrome 47: OK
+
+Firefox: OK
+
+Safari: OK
     
     
     
