@@ -1,21 +1,21 @@
 # chrome-bug
 Example of Webfont loading bug in Chrome version 48
 
-***How to reproduce the bug;***
+***How to reproduce the bug***
 
 1. Go to [kwals.github.io/chrome-bug](kwals.github.io/chrome-bug)
 
 2. Refresh the page _before_ clicking on anything.
 
-3. Click on the text, `Click here and expect to see text below`
+3. Click on the text -> `Click here and expect to see text below`
 
 
-***Expected Behavior:***
+***Expected Behavior***
 
-See the text `"Hey there, can you see me?"` appear between headline and iframe.
+Text `"Hey there, can you see me?"` should appear between headline and iframe.
 
 
-***Actual Behavior:***
+***Actual Behavior***
 
 Text is not visible.
 
@@ -69,10 +69,12 @@ _Add OK or FAIL, along with the version, after other browsers where you have tes
 See example at [kwals.github.io/chrome-bug](kwals.github.io/chrome-bug)
 
 
-_What is the expected result?_
+***_What is the expected result?_***
+
 Hidden text should become visible.
 
 
-_What happens instead?_
+***_What happens instead?_***
+
 Hidden text is not visible.
 
