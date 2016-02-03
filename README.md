@@ -12,7 +12,7 @@ Example of Webfont loading bug in Chrome version 48
 
 ***Expected Behavior***
 
-Text `"Hey there, can you see me?"` should appear between headline and iframe.
+Text should appear between headline and iframe ->  `"Hey there, can you see me?"` 
 
 
 ***Actual Behavior***
@@ -52,18 +52,14 @@ Safari: OK
 ***_What steps will reproduce the problem?_***
 
 
-1.Navigate to a page with an iframe. 
-
-  Both page and iframe request the same web font.
-  
-  Page has content that is `display: hidden` until button is clicked.
+1. Navigate to a page with an iframe, where main page and iframe load the same webfont.
   
   
 2. Refresh page.
 
 
 
-3. Click button to show hidden content.
+3. Click button to show hidden text on main page.
 
 
 See example at [kwals.github.io/chrome-bug](kwals.github.io/chrome-bug)
